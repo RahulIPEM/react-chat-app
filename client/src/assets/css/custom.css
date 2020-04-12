@@ -1,0 +1,143 @@
+body {
+    background: #455a64;
+}
+
+.divider {
+    margin-bottom: 20px;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.mtop-join {
+    margin-top: 15%;
+}
+
+.chat-box-outer-container {
+    background: #ffffff;
+    height: 600px;
+    margin-top: 5%;
+    position: relative;
+}
+
+.chat-box-container {
+    background: #1c313a;
+    color: #ffffff;
+}
+
+.left-header-container,
+.right-header-container {
+    padding: 1em;
+}
+
+.left-header-container>h3 {
+    color: #ffffff !important;
+}
+
+.right-header-container {
+    text-align: right;
+}
+
+.message-form {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 2px solid #dddddd;
+}
+
+.chat-input-box {
+    width: 80%;
+    border: none;
+    border-radius: 0;
+    padding: 12px 12px;
+    font-size: 18px;
+}
+
+.chat-input-box:focus {
+    outline: none;
+}
+
+.send-button {
+    width: 20%;
+    border: none;
+    border-radius: 0;
+    padding: 12px 12px;
+    font-size: 18px;
+    background: #1c313a;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    overflow: scroll;
+}
+
+.message-div {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.message-div>p {
+    margin-bottom: 0 !important;
+}
+
+.message-box {
+    border-radius: 15px;
+    padding: 5px 10px;
+    max-width: 80%;
+}
+
+.message-text {
+    margin: 0;
+    width: 100%;
+    letter-spacing: 0;
+    float: left;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+.sent-text {
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    color: #1c313a;
+    padding: 3px;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.background-dark {
+    background: #455a64;
+}
+
+.sent-message {
+    color: #ffffff;
+}
+
+.background-light {
+    background: #9e9e9e;
+}
+
+.received-msg {
+    color: #1c313a;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
